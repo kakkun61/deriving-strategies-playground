@@ -1,0 +1,53 @@
+name:                deriving-strategies-playground
+version:             0.1.0.0
+github:              "kakkun61/deriving-strategies-playground"
+license:             BSD3
+author:              "Kazuki Okamoto"
+maintainer:          "kazuki.okamoto@kakkun61.com"
+copyright:           "2018 Kazuki Okamoto"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/kakkun61/deriving-strategies-playground#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+
+ghc-options:
+- -threaded
+- -rtsopts
+- -with-rtsopts=-N
+
+executables:
+  exe1:
+    source-dirs: "1"
+    main: Main.hs
+
+  exe2:
+    source-dirs: "2"
+    main: Main.hs
+
+  exe3:
+    source-dirs: "3"
+    main: Main.hs
+
+  exe4:
+    source-dirs: "4"
+    main: Main.hs
+
+  exe5:
+    source-dirs: "5"
+    main: Main.hs
+
+  exe6:
+    source-dirs: "6"
+    main: Main.hs
